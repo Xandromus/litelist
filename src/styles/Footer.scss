@@ -1,0 +1,19 @@
+footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100px;
+    margin: 0 auto;
+    clear: both;
+
+    p {
+        text-align: center;
+        position: absolute;
+        max-width: 798px;
+        bottom: 20px;
+        left: 0;
+        right: 0;
+        margin: auto;
+    }
+}

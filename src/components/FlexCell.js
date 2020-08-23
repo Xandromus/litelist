@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
-import "../styles/Wrapper.scss";
+import "../styles/FlexCell.scss";
 
-export default class Wrapper extends Component {
+export default class FlexCell extends Component {
   render() {
     return (
-      <div className="wrapper">
+      <div className="flexcell">
         { this.props.children }
       </div>
     )

@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
-import "../styles/Wrapper.scss";
+import "../styles/UploadArea.scss";
 
-export default class Wrapper extends Component {
+export default class UploadArea extends Component {
   render() {
     return (
-      <div className="wrapper">
+      <div className="uploadarea">
         { this.props.children }
       </div>
     )

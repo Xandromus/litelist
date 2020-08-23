@@ -1,11 +1,14 @@
 import React, { Component } from 'react';
+import "../styles/Header.scss";
 
 export default class Header extends Component {
   render() {
     return (
-      <div className="header">
+      <header className="header">
+        <h1>LiteList</h1>
+        <h2>Lightning fast whitelists!</h2>
         { this.props.children }
-      </div>
+      </header>
     )
   }
 }

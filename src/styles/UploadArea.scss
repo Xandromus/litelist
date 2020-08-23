@@ -1,0 +1,28 @@
+.uploadarea {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 100%;
+    justify-content: center;
+    margin: 0 auto;
+
+    .upload-container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 3px;
+        padding: 1px;
+        width: 50%;
+        border: 1px ridge black;
+        border-radius: 5px;
+        box-shadow: 1px 1px 5px rgba(0,0,0,.4);
+
+    .upload-btn {
+        display: flex;
+        letter-spacing: 1pt;
+        width: 50%;
+        margin: 10px;
+        font-family: inherit;
+        font-size: .8em;        
+      }
+    }
+}
